@@ -1,0 +1,66 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+dist/
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Compiled JavaScript files (but keep config files)
+*.js
+!jest.config.js
+!gulpfile.js
+!.eslintrc.js
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# VSCode
+.vscode/
+
+# IDE files
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
